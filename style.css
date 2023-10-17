@@ -14,8 +14,11 @@
 
 .left {
     width: 34%;
-    /* height: 200px; */
+     height: 1200px; 
     /* border: 2px solid black; */
+    box-shadow: 10px 10px 20px -1px rgba(168, 159, 159, 0.63);
+    -webkit-box-shadow: 10px 10px 20px -1px rgba(137, 114, 114, 0.63);
+    -moz-box-shadow: 10px 10px 20px -1px rgba(150, 136, 136, 0.63);
 }
 
 .right{
@@ -29,19 +32,35 @@
 
 .education{
     width: 100%;
-    height: 380px;
+    height: 480px;
+    padding:20px ;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    box-shadow: 10px 10px 20px -1px rgba(83, 82, 82, 0.63);
+    -webkit-box-shadow: 10px 10px 20px -1px rgba(82, 78, 78, 0.63);
+    -moz-box-shadow: 10px 10px 20px -1px rgba(78, 65, 65, 0.63);
 }
 
 .experience{
     width: 100%;
-    height: 380px;
-
+    height: 480px;
+    padding:20px ;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    box-shadow: 10px 10px 20px -1px rgba(113, 105, 105, 0.63);
+    -webkit-box-shadow: 10px 10px 20px -1px rgba(101, 97, 97, 0.63);
+    -moz-box-shadow: 10px 10px 20px -1px rgba(121, 112, 112, 0.63);
 }
 
 .photo{
     width: 100%;
-    height: 300px;
+    height: 500px;
     position: relative;
+    box-shadow: 10px 10px 20px -1px rgba(83, 82, 82, 0.63);
+    -webkit-box-shadow: 10px 10px 20px -1px rgba(82, 78, 78, 0.63);
+    -moz-box-shadow: 10px 10px 20px -1px rgba(78, 65, 65, 0.63);
 }
 
 .photo img{
@@ -52,13 +71,17 @@
 .info{
     width: 100%;
     height: 500px;
-    background-color: rgb(106, 189, 29);
+    padding:10px ;
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
 }
 .ph1{
     width:90% ;
     height:20px ;
-    border-color: aliceblue;
     border: solid 2x black ;
+    background-color: aliceblue;
+    border-radius: 50px;
 }
 
 .ph2{
@@ -72,8 +95,9 @@
 .ph1a{
     width:90% ;
     height:20px ;
-    border-color: aliceblue;
     border: solid 2x black ;
+    background-color: aliceblue;
+    border-radius: 50px;
 }
 
 .ph2b{
@@ -87,8 +111,9 @@
 .il1{
     width:90% ;
     height:20px ;
-    border-color: aliceblue;
     border: solid 2x black ;
+    background-color: aliceblue;
+    border-radius: 50px;
 }
 
 .il2{
@@ -102,8 +127,9 @@
 .me1{
     width:90% ;
     height:20px ;
-    border-color: aliceblue;
     border: solid 2x black ;
+    background-color: aliceblue;
+    border-radius: 50px;
 }
 
 .me2{
@@ -117,8 +143,9 @@
 .en1{
     width:90% ;
     height:20px ;
-    border-color: aliceblue;
     border: solid 2x black ;
+    background-color: aliceblue;
+    border-radius: 50px;
 }
 
 .en2{
@@ -131,8 +158,9 @@
 .sp1{
     width:90% ;
     height:20px ;
-    border-color: aliceblue;
     border: solid 2x black ;
+    background-color: aliceblue;
+    border-radius: 50px;
 }
 
 .sp2{
@@ -145,8 +173,8 @@
 .ge1{
     width:90% ;
     height:20px ;
-    border-color: aliceblue;
     border: solid 2x black ;
+    background-color: aliceblue;
 }
 
 .ge2{
@@ -155,6 +183,12 @@
     background-color: rgb(8, 34, 8);
     border-radius: 50px;
     text-align: center;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(30, 107, 82);
 }
 @media only screen and (max-width: 700px) {
     .container{

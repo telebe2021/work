@@ -7,7 +7,7 @@
 .container{
     display: flex;
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(211, 211, 196);
     padding: 5px 10px;
     justify-content: space-between;
 }
@@ -29,28 +29,133 @@
 
 .education{
     width: 100%;
-    height: 500px;
-    background-color: red;
+    height: 380px;
 }
 
 .experience{
     width: 100%;
-    height: 500px;
-    background-color: cyan;
+    height: 380px;
+
 }
 
 .photo{
     width: 100%;
     height: 300px;
-    background-color: red;
+    position: relative;
 }
 
+.photo img{
+    position: absolute;
+    width:100% ;
+    height:100% ;
+}
 .info{
     width: 100%;
-    height: 700px;
-    background-color: aqua;
+    height: 500px;
+    background-color: rgb(106, 189, 29);
+}
+.ph1{
+    width:90% ;
+    height:20px ;
+    border-color: aliceblue;
+    border: solid 2x black ;
 }
 
+.ph2{
+    width:85% ;
+    height:100% ;
+    background-color: rgb(8, 34, 8);
+    border-radius: 50px;
+    text-align: center;
+
+}
+.ph1a{
+    width:90% ;
+    height:20px ;
+    border-color: aliceblue;
+    border: solid 2x black ;
+}
+
+.ph2b{
+    width:75% ;
+    height:100% ;
+    background-color: rgb(8, 34, 8);
+    border-radius: 50px;
+    text-align: center;
+
+}
+.il1{
+    width:90% ;
+    height:20px ;
+    border-color: aliceblue;
+    border: solid 2x black ;
+}
+
+.il2{
+    width:67% ;
+    height:100% ;
+    background-color: rgb(8, 34, 8);
+    border-radius: 50px;
+    text-align: center;
+
+}
+.me1{
+    width:90% ;
+    height:20px ;
+    border-color: aliceblue;
+    border: solid 2x black ;
+}
+
+.me2{
+    width:50% ;
+    height:100% ;
+    background-color: rgb(8, 34, 8);
+    border-radius: 50px;
+    text-align: center;
+
+}
+.en1{
+    width:90% ;
+    height:20px ;
+    border-color: aliceblue;
+    border: solid 2x black ;
+}
+
+.en2{
+    width:100%;
+    height:100% ;
+    background-color: rgb(8, 34, 8);
+    border-radius: 50px;
+    text-align: center;
+}
+.sp1{
+    width:90% ;
+    height:20px ;
+    border-color: aliceblue;
+    border: solid 2x black ;
+}
+
+.sp2{
+    width:50% ;
+    height:100% ;
+    background-color: rgb(8, 34, 8);
+    border-radius: 50px;
+    text-align: center;
+}
+.ge1{
+    width:90% ;
+    height:20px ;
+    border-color: aliceblue;
+    border: solid 2x black ;
+}
+
+.ge2{
+    width:30% ;
+    height:100% ;
+    background-color: rgb(8, 34, 8);
+    border-radius: 50px;
+    text-align: center;
+}
 @media only screen and (max-width: 700px) {
     .container{
         flex-direction: column;
@@ -59,6 +164,7 @@
     .container .left{
         width: 100%;
     }
+
 
     .container .right {
         width: 100%;
